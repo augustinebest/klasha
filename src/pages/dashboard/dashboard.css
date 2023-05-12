@@ -1,0 +1,217 @@
+.db_frame {
+  margin-left: 280px;
+  padding: 20px 30px;
+  transition: 0.8s;
+}
+
+.db_frame_updated {
+  margin-left: 100px !important;
+}
+
+.db_title {
+  color: #1a1a1a;
+  font-family: GS_Medium;
+  margin-bottom: 20px;
+}
+
+.db_column {
+  display: grid;
+  grid-template-columns: 23.4% 23.4% 23.4% 23.4%;
+  column-gap: 24px;
+}
+
+.db_item {
+  height: 250px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.db_head {
+  margin-bottom: 6px;
+}
+
+.db_amount {
+  font-family: GS_Medium;
+}
+
+.db_graph {
+  margin: 8px 0;
+}
+
+.db_second {
+  background-color: #000000;
+  color: #fff;
+}
+
+.db_sales {
+  display: grid;
+  grid-template-columns: 70% 28%;
+  column-gap: 24px;
+  /* border: 1px solid blue; */
+  width: 100%;
+  margin-top: 40px;
+}
+
+.db_sales_item:nth-child(2) {
+  position: relative;
+}
+
+.db_nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.db_nav > div:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.db_nav > div:first-child > span:first-child {
+  color: #0a0a0a;
+  line-height: 32px;
+  font-family: GS_Medium;
+}
+
+.db_bar {
+  margin: 0 12px;
+}
+
+.db_nav > div:first-child > span:nth-child(3) {
+  color: #ef2c5a;
+  font-family: GS_Medium;
+  margin-right: 6px;
+}
+
+.db_nav > div:first-child > span:nth-child(4) {
+  font-family: GS_Medium;
+  margin: 0 12px;
+}
+
+.db_button {
+  display: flex;
+  align-items: center;
+  border: 1px solid #000;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 8px 14px;
+}
+
+.db_right {
+  display: flex;
+  align-items: center;
+}
+
+.db_right button {
+  margin-left: 12px;
+}
+
+.db_right span {
+  margin-left: 10px;
+}
+
+.db_frame button span {
+  font-family: GS_Medium;
+}
+
+#db_graph {
+  height: 284px;
+  margin-top: 2px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+#db_graph img {
+  width: 100%;
+  height: 100%;
+}
+
+.db_send {
+  background-color: #ef2c5a;
+  height: 85%;
+  border-radius: 8px;
+  padding: 24px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  font-family: GS_Bold;
+  font-weight: 500;
+  position: absolute;
+  bottom: 0;
+}
+
+.db_send_txt {
+  font-size: 20px;
+  font-family: GS_Medium;
+  /* width: 80%; */
+}
+
+.db_send button {
+  font-family: GS_Medium;
+  position: absolute;
+  color: #ffffff;
+  bottom: 24px;
+  background: #0a0a0a;
+  border-radius: 8px;
+  padding: 6px 15px;
+}
+
+.db_svg {
+  height: 120px;
+  width: 100%;
+}
+
+/* Media Query */
+@media (max-width: 970px) {
+  .db_frame {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .db_send_txt {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .db_column {
+    display: block;
+  }
+
+  .db_item {
+    margin-bottom: 20px;
+  }
+
+  .db_sales {
+    display: block;
+  }
+
+  .db_nav {
+    display: block;
+  }
+
+  .db_send button,
+  .db_send {
+    position: relative;
+  }
+
+  .db_send button {
+    bottom: 20px;
+    position: absolute;
+  }
+
+  .db_send {
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .db_send > div {
+    height: 250px;
+    width: 60%;
+  }
+  .db_send_txt {
+    width: 100%;
+  }
+}
