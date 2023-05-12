@@ -1,0 +1,127 @@
+.tr_frame {
+  margin-left: 280px;
+  padding: 20px 30px;
+  margin-top: 80px;
+}
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+  padding: 15px;
+  /* font-weight: 600; */
+}
+
+.table > thead > tr > td,
+.table > thead > tr > th {
+  font-family: GS_Medium;
+  font-size: 16px;
+}
+
+.table > tbody > tr > td,
+.table > tbody > tr > th {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.tr_pagination {
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: flex-end;
+  height: 80px;
+  align-items: center;
+  border-radius: 0 0 8px 8px;
+  margin-top: -20px;
+}
+
+.table-responsive {
+  margin-bottom: 0;
+}
+
+.tr_p_item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-right: 12px;
+  border-radius: 8px;
+  border-top: 0;
+}
+
+.tr_p_item span {
+  font-weight: lighter;
+  padding: 5px 14px;
+  font-family: GS_Light;
+  font-size: 16px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.tr_p_item span:nth-child(2) {
+  font-family: GS_Bold;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+.tr_history {
+  border: 1px solid #ddd;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+}
+
+.tr_history span {
+  font-family: GS_Bold;
+}
+
+.tr_search {
+  height: 50px;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+}
+
+.tr_search form div {
+  border: 1px solid #eee;
+  padding: 7px 12px;
+  border-radius: 8px;
+}
+
+.tr_search form div input {
+  border: none;
+}
+
+.tr_search form div i {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.tr_search button {
+  border: 1px solid #0A0A0A;
+  padding: 5px 15px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.tr_search button span {
+  font-family: GS_Medium;
+}
+
+.tr_search button:first-child {
+  margin-right: 12px;
+}
+
+.tr_search button:first-child span {
+  margin-right: 8px;
+}
+
+/* Media Query */
+@media (max-width: 970px) {
+  .tr_frame {
+    margin-left: 0;
+  }
+}
