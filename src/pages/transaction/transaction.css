@@ -124,4 +124,37 @@
   .tr_frame {
     margin-left: 0;
   }
+  /* .tr_search {
+    display: block;
+  } */
+  .tr_pagination {
+    margin-top: 0;
+  }
 }
+
+@media (max-width: 450px) {
+  .tr_p_item {
+    margin-right: 0;
+    padding: 6px;
+  }
+  .tr_p_item span {
+    padding: 5px 10px;
+  }
+  .tr_search {
+    height: auto;
+    display: block;
+    padding: 13px;
+  }
+  .tr_form_div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .tr_search form div input {
+    width: 100%;
+  }
+  .tr_filter {
+    margin-top: 12px;
+  }
+}
+

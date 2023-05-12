@@ -59,12 +59,12 @@ const Transaction = () => {
         </div>
         <div className="tr_search">
           <form>
-            <div>
+            <div className="tr_form_div">
               <input type="text" placeholder="Search" />
               <i className="fa fa-search"></i>
             </div>
           </form>
-          <div>
+          <div className="tr_filter">
             <button>
               <span>Filter</span>
               <Filter />
